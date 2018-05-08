@@ -13,5 +13,5 @@ A wordcut-x wrapper for Clojure
 ### Lein
 
 ````
-[rockers.veer66/wordcut-x-clj "0.1.0-SNAPSHOT"]
+[rockers.veer66/wordcut-x-clj "0.1.1-SNAPSHOT"]
 ````
