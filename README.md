@@ -8,3 +8,10 @@ A wordcut-x wrapper for Clojure
 (wordseg wordcut "กากาก")
 (build-dag wordcut "กากาก")
 ````
+## Install
+
+### Lein
+
+````
+[rockers.veer66/wordcut-x-clj "0.1.0-SNAPSHOT"]
+````
