@@ -4,7 +4,8 @@ A wordcut-x wrapper for Clojure
 ## Usage example
 
 ````Clojure
-(def wordcut (create-wordcut-from-url "http://file.veer66.rocks/dix/tdict-std.txt"))
+(require '[rocks.veer66.wordcut :refer :all])
+(def wordcut (create-wordcut-from-url "https://file.veer66.rocks/dix/tdict-std.txt"))
 (wordseg wordcut "กากาก")
 (build-dag wordcut "กากาก")
 ````
@@ -13,5 +14,5 @@ A wordcut-x wrapper for Clojure
 ### Lein
 
 ````
-[rockers.veer66/wordcut-x-clj "0.1.1-SNAPSHOT"]
+[rocks.veer66/wordcut-x-clj "0.1.4-SNAPSHOT"]
 ````
