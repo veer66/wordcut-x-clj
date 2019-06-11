@@ -1,7 +1,7 @@
-(ns rockers.veer66.wordcut_x_clj.wordcut
+(ns rocks.veer66.wordcut
   (:require [clojure.string :as str])
-  (:import rockers.veer66.Wordcut
-           rockers.veer66.EdgeType)
+  (:import rocks.veer66.Wordcut
+           rocks.veer66.EdgeType)
   (:gen-class)) 
 
 (defn create-wordcut-from-url [dix-url-text]
